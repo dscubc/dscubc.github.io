@@ -17,6 +17,26 @@ body {
   letter-spacing: -.3px;
 }
 
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    left: 50%
+}
+
 .has-sticky-header {
   padding-top: 72px;
 }
@@ -494,7 +514,7 @@ p {
   .project-card {
     margin-bottom: 50px;
     width: 21rem;
-  
+
   }
 }
 
@@ -506,7 +526,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     transform: translate(20%);
-    
+
 }
 
 .project-card .cardheader img {

@@ -18,7 +18,7 @@ const paths = {
 };
 
 const imagemin = require('gulp-imagemin');
- 
+
 const imagesGulp = function() {
   return gulp.src(paths.images)
     .pipe(imagemin([
@@ -107,3 +107,5 @@ const watch = gulp.parallel(
 exports.build = gulp.parallel(imagesGulp, jsGulp, gulpCss, htmlGulp, swGulp, vendorGulp, copyManifest);
 
 exports.watch = gulp.parallel(server, watch);
+
+particlesJS.load('particles-js', 'particles.json');
