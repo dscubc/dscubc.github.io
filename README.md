@@ -1,5 +1,5 @@
 # UBC DSC 
-UBC's Developer Student Club's launch website.
+UBC's Developer Student Club's launch website. Dev build hosted at https://ubcdsc-ee8b9.web.app/
 
 # Project Vibranium 🔥
 This awesome Progressive Web App was created for Developer Student Clubs in Sub Saharan Africa as a profile and a platform to showcase what they're upto in events, outreach to local businesses and showcases and most importantly their success stories to the world.
