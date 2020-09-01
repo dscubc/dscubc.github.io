@@ -34,17 +34,17 @@ body {
     height: 120%;
     position: absolute;
     z-index: -10;
-    top: -10%;
+    top: -15%;
     left: -10%
 }
 
 .particles-js-canvas-el {
-    height: 100% !important;
+    min-height: 30vmax !important;
     z-index: -10;
 }
 
 .particle-container {
-  height: 100% !important;
+  min-height: 30vmax !important;
   z-index: 0;
 }
 
