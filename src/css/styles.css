@@ -17,6 +17,37 @@ body {
   letter-spacing: -.3px;
 }
 
+#particles-js canvas {
+    min-height: 402;
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    z-index: -10;
+    top: -15%;
+    left: -10%
+}
+
+.particles-js-canvas-el {
+    min-height: 30vmax !important;
+    z-index: -10;
+}
+
+.particle-container {
+  min-height: 30vmax !important;
+  z-index: 0;
+}
+
 .has-sticky-header {
   padding-top: 72px;
 }
@@ -494,7 +525,7 @@ p {
   .project-card {
     margin-bottom: 50px;
     width: 21rem;
-  
+
   }
 }
 
@@ -506,7 +537,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     transform: translate(20%);
-    
+
 }
 
 .project-card .cardheader img {

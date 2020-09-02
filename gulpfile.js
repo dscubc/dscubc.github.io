@@ -18,7 +18,7 @@ const paths = {
 };
 
 const imagemin = require('gulp-imagemin');
- 
+
 const imagesGulp = function() {
   return gulp.src(paths.images)
     .pipe(imagemin([

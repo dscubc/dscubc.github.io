@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DSC - University Name</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>Developer Student Club - UBC</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta name="author" content="DSC University Name">
-    <meta name="description" content="Developer Student Clubs (DSC)a is a Google Developers program for university students to learn mobile and web development skills.">
-    <meta name="keywords" content="dsc, university name,google developers, sub saharan africa, kenya, computer science">
+    <meta name="description" content="Developer Student Clubs (DSC) is a Google Developers program for university students to learn mobile and web development skills.">
+    <meta name="keywords" content="dsc, developer student club,google developers, UBC, University of British Columbia, computer science">
     <meta name="theme-color" content="#2F5BE7">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="manifest" href="manifest.json">
@@ -39,18 +39,17 @@
 
 <body class="x-hidden has-sticky-header">
     <nav class="navbar navbar-expand-lg fixed-top custom-menu custom-menu__light">
-        <div class="container"><a class="navbar-brand" href="index.html"><img data-src="src/images/icon.png" height="40" alt="DSC icon"> </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="menu-icon__circle"></span> <span class="menu-icon"><span class="menu-icon__bar"></span> <span class="menu-icon__bar"></span> <span class="menu-icon__bar"></span></span></button>
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="src/images/assets/dsclogo1.png" height="50" alt="DSC icon"> </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="menu-icon__circle"></span> <span class="menu-icon"><span class="menu-icon__bar"></span> <span class="menu-icon__bar"></span> <span class="menu-icon__bar"></span></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-lg-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#overview">Overview <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#overview">About <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a href="#technologies" class="nav-link">Technologies</a></li>
-                    <li class="nav-item"><a href="learn.html" class="nav-link">Learn</a></li>
                     <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#workshops" class="nav-link">Workshops</a></li>
+                    <li class="nav-item"><a href="#workshops" class="nav-link">Events</a></li>
                     <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://medium.com/search?q=DSCUniversityName" target="_blank" rel="noopener">Stories</a></li>
+                    <li class="nav-item"><a href="#faqs" class="nav-link">Contact</a></li>
                 </ul>
-                <div class="custom-menu__right"><a href="http://meetu.ps/c/3q6jR/zjdKV/f" class="event-btn" rel="noreferrer" target="_blank">Next Event</a></div>
+                <div class="custom-menu__right"><a href="https://amscampusbase.ubc.ca/dscubc/home/" class="event-btn" rel="noreferrer" target="_blank">Next Event</a></div>
             </div>
         </div>
     </nav>
@@ -61,7 +60,7 @@
                     <div class="hero-content">
                         <div class="hero-title__group">
                             <div class="hero-title">
-                                <h2 class="zuri">Developer Student Club<br>University Name.</h2>
+                                <h2 class="zuri">Developer Student Club<br> University of British Columbia.</h2>
                             </div>
                             <div class="Hero--Subtitle">
                                 <p class="lead">Developer Student Clubs is a<first-letter> G</first-letter>
@@ -69,16 +68,17 @@
                                     <second-letter>o</second-letter>
                                     <first-letter>g</first-letter>
                                     <forth-letter>l</forth-letter>
-                                    <third-letter>e</third-letter> Developers program for university students to learn<second-letter> mobile</second-letter> and<first-letter >web development skills</first-letter>, <third-letter>design thinking skills</third-letter> and<forth-letter> leadership skills.</forth-letter>
+                                    <third-letter>e</third-letter> Developers program for university students to learn<second-letter> mobile</second-letter> and<first-letter> web development skills</first-letter>, <third-letter>design thinking skills</third-letter> and<forth-letter> leadership skills.</forth-letter>
                                 </p>
                             </div>
-                        </div><a href="http://meetu.ps/c/3q6jR/zjdKV/f" class="hero-button" target="_blank" rel="noopener"><i class="fab fa-meetup"></i> &nbsp; Become a member</a>
+                        </div><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKH0oh_ZZXqBzQ09xw18z-9In2_YV5h4npwOLg2SHebfm6jg/viewform" class="hero-button" target="_blank" rel="noopener"><i class="fas fa-users"></i> &nbsp; Become a member</a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-5 ml-auto ml-pic">
+                <div id="particle-container" class="col-12 col-sm-5 ml-auto ml-pic">
+                  <div id="particles-js"></div>
                     <div class="hero-figure"><img data-src="src/images/assets/diversity.png" class="img-fluid w-100" alt="Illustration of diversity in our developer community"></div>
                 </div>
-            </div>
+             </div>
         </div>
     </header>
     <section id="overview" class="section-spacer">
@@ -245,154 +245,39 @@
             <div class="tab-content">
                 <div class="tab-pane active" id="upcoming" role="tabpanel" aria-labelledby="upcoming">
                     <div class="row">
+                        <div class="col-md-4 col-12"></div>
                         <div class="col-md-4 col-12">
-                            <div class="card event-card"><img class="card-img-top" data-src="src/images/assets/events/fbw.png" alt="Event one poster">
-                                <div class="card-body">
-                                    <p class="tagging intermediate float-right">Intermediate</p>
-                                    <h5 class="card-title">Firebase for Web</h5>
-                                    <table>
-                                        <tr>
-                                            <td width="15%" class="text-blue"><i class="far fa-calendar-alt"></i></td>
-                                            <td>20<sup>th</sup> April 2019</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-red"><i class="fas fa-map-marker-alt"></i></td>
-                                            <td>LH 20, Main Campus</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-green"><i class="far fa-clock"></i></td>
-                                            <td>0900hrs - 1200hrs</td>
-                                        </tr>
-                                    </table><a href="https://www.meetup.com/GDG-Kisii/events/258288805/" class="button float-right">Attend</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-12">
-                            <div class="card event-card"><img class="card-img-top" data-src="src/images/assets/events/fba.png" alt="Event two poster">
-                                <div class="card-body">
-                                    <p class="tagging expert float-right">Expert</p>
-                                    <h5 class="card-title">Firebase for Android</h5>
-                                    <table>
-                                        <tr>
-                                            <td width="15%" class="text-blue"><i class="far fa-calendar-alt"></i></td>
-                                            <td>6<sup>th</sup> May 2019</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-red"><i class="fas fa-map-marker-alt"></i></td>
-                                            <td>LH 20, Main Campus</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-green"><i class="far fa-clock"></i></td>
-                                            <td>0900hrs - 1400hrs</td>
-                                        </tr>
-                                    </table><a href="https://www.meetup.com/GDG-Kisii/events/258288819/" class="button float-right">Attend</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-12">
-                            <div class="card event-card"><img class="card-img-top" data-src="src/images/assets/events/rpj.png" alt="Event three poster">
+                            <div class="card event-card"><img class="card-img-top" data-src="src/images/assets/events/imagine.jpeg" alt="Event one poster">
                                 <div class="card-body">
                                     <p class="tagging beginner float-right">Beginner</p>
-                                    <h5 class="card-title">Raspberry Pi Jam</h5>
+                                    <h5 class="card-title">Imagine Day Booth</h5>
                                     <table>
                                         <tr>
                                             <td width="15%" class="text-blue"><i class="far fa-calendar-alt"></i></td>
-                                            <td>22<sup>nd</sup> May 2019</td>
+                                            <td>8<sup>th</sup> Sept 2020</td>
                                         </tr>
                                         <tr>
                                             <td class="text-red"><i class="fas fa-map-marker-alt"></i></td>
-                                            <td>LH 20, Main Campus</td>
+                                            <td>Virtual, AMS Campus Base</td>
                                         </tr>
                                         <tr>
                                             <td class="text-green"><i class="far fa-clock"></i></td>
-                                            <td>1800hrs - 1930hrs</td>
+                                            <td>2-6pm PDT</td>
                                         </tr>
-                                    </table><a href="https://www.meetup.com/GDG-Kisii/events/258212444/" class="button float-right">Attend</a>
+                                    </table><a href="https://amscampusbase.ubc.ca/home_login" targer="_blank" rel="noopener" class="button float-right">Attend</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 col-12"></div>
                 </div>
                 <div class="tab-pane" id="past" role="tabpanel" aria-labelledby="past">
-                    <section id="hi" class="section-spacer bg-very__gray">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-sm-6">
-                                    <div class="feature-list-image"><iframe data-urllink="https://docs.google.com/presentation/d/e/2PACX-1vSubYcbqWaNFgVUDQ14VYLf_4RFiaVeFl-Tz6ryS_YAuYmP9xhdAUrV0_V5GpeHHenACAIwl8zwTZ3z/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-                                </div>
-                                <div class="col-sm-5 ml-auto">
-                                    <div class="feature-list-wrapper">
-                                        <div class="content-header">
-                                            <h2 class="content-title">Getting Started with Android Things</h2>
-                                            <hr>
-                                            <h6>DATE : 26<sup>th</sup> Jan 2019</h6>
-                                            <h6>VENUE : LH 27, Main Campus</h6>
-                                            <p>We learnt how to assemble an Android Things kit and saw the temperature and barometer sensors on the kit in action</p>
-                                        </div><a href="#" class="past-event" target="_blank" rel="noopener">EVENT PHOTOS&nbsp;&nbsp;<i class="fas fa-camera"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="section-spacer">
-                        <div class="container">
-                            <div class="row flex-column-reverse flex-sm-row align-items-cengit ter">
-                                <div class="col-sm-5 mr-auto">
-                                    <div class="feature-list-wrapper">
-                                        <div class="content-header">
-                                            <h2 class="content-title">The Magic Of Flutter</h2>
-                                            <hr>
-                                            <h6>DATE : 6<sup>th</sup> Aug 2018</h6>
-                                            <h6>VENUE : LH 1, Main Campus</h6>
-                                            <p>We concentrated on two parts of Flutter, that we admire most : The developer experience and brand design first development</p>
-                                        </div><a href="#" class="past-event" target="_blank" rel="noopener">EVENT PHOTOS&nbsp;&nbsp;<i class="fas fa-camera"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="feature-list-image"><iframe data-urllink="https://docs.google.com/presentation/d/e/2PACX-1vQw37yOddaGU-XhgoHwubXadUTEgnxQ0iqT6eHbBssRnP8UzplK-vkdL_5aKl3aiTKVjMkNMC_fRCt3/embed?start=false&loop=true&delayms=5000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section id="past_ones" class="section-spacer bg-very__gray">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-sm-6">
-                                    <div class="feature-list-image"><iframe data-urllink="https://docs.google.com/presentation/d/e/2PACX-1vQcG84BsN5LAUmvkvEUwK2h1euvoW6PZaSl4CnJfybQx0xgB6XbQTECqo4H1M56axzqzDBqJpPVrbeL/embed?start=false&loop=true&delayms=30000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-                                </div>
-                                <div class="col-sm-5 ml-auto">
-                                    <div class="feature-list-wrapper">
-                                        <div class="content-header">
-                                            <h2 class="content-title">Build Your First App</h2>
-                                            <hr>
-                                            <h6>DATE : 6<sup>th</sup> July 2018</h6>
-                                            <h6>VENUE : LH 1, Main Campus</h6>
-                                            <p>We set up the Android Application Development Environment for creating, testing and debugging apps.</p>
-                                        </div><a href="#" class="past-event">EVENT PHOTOS&nbsp;&nbsp;<i class="fas fa-camera"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="section-spacer">
-                        <div class="container">
-                            <div class="row flex-column-reverse flex-sm-row align-items-cengit ter">
-                                <div class="col-sm-5 mr-auto">
-                                    <div class="feature-list-wrapper">
-                                        <div class="content-header">
-                                            <h2 class="content-title">DSC SSA Leads Summit</h2>
-                                            <hr>
-                                            <h6>DATE : 25<sup>th</sup> July - 28<sup>th</sup>July 2018</h6>
-                                            <h6>WHERE : Lagos, Nigeria.</h6>
-                                            <p>One of our lead organizers was privileged to represent the community in a lead summit hosted by Google Nigeria where he also talked about goal-setting.</p>
-                                        </div><a href="#" class="past-event" target="_blank" rel="noopener">EVENT PHOTOS&nbsp;&nbsp;<i class="fas fa-camera"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="feature-list-image"><iframe width="500" height="274" data-urllink="https://www.youtube.com/embed/AAin71VkbzQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-                                </div>
-                            </div>
-                        </div>
+                    <section>
+                      <div class="container">
+                          <div class="text-center">
+                            <p>We're just getting started at UBC, stay tuned for some amazing learning opportunities!</p>
+                          </div>
+                      </div>
                     </section>
                 </div>
             </div>
@@ -574,7 +459,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">How frequently do events and workshops occur?</h5>
-                            <p>We have a hands-on session every Tuesday at SG25 from 1800hrs to 2030hrs. We also hold workshops and showcases & we would recommend you to join our community on <a href="https://www.meetup.com/DSCUniversity/">Meetup</a> to get updates.</p>
+                            <p>Our first virtual event is happening on Imagine Day, hosted at AMS Campus Base. We also hold workshops and showcases & we would recommend you to join our community on <a href="https://www.meetup.com/DSCUniversity/">Meetup</a> to get updates.</p>
                         </div>
                     </div>
                 </div>
@@ -592,25 +477,24 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Who should I reach out to if I have any questions?</h5>
-                            <p>If you have any questions or comments, please don't hesitate to contact us by clicking the button below. We would be happy to stay engaged via email even after the event</p>
+                            <p>If you have any questions or comments, please don't hesitate to contact us by clicking the button below or reaching out to us on our <a href="https://www.instagram.com/dscubc/?hl=en" target="_blank" rel="noopener">instagram</a>.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mt-40 text-center"><a href="mailto:dscuniversity.com" class="hero-button">Send us an email</a></div>
+            <div class="mt-40 text-center"><a href="mailto:ubcdsc20@gmail.com" class="hero-button">Send us an email</a></div>
         </div>
     </section>
     <footer class="section-spacer footer-section">
         <div class="container">
             <div class="row flex-column-reverse flex-sm-row flex-lg-row">
                 <div class="col-md-4 col-12">
-                    <div class="footer-widget first-of-footer-widget"><img data-src="src/images/footer-logo.png" class="logo-sm mb-10" alt="DSC Kisii University footer logo">
-                        <p>&copy; 2019 | All Rights Reserved.</p><span>Feel free to drop us an email at </span><a href="mailto:team@dsc.scuniversityname.org">team@dscuniversityname.org</a>
+                    <div class="footer-widget first-of-footer-widget"><img src="src/images/assets/dsclogo1.png" class="logo-sm mb-10" alt="DSC UBC footer logo">
+                        <p>&copy; 2020 | All Rights Reserved.</p><span>Feel free to drop us an email at </span><a href="mailto:dscubc20@gmail.com">dscubc20@gmail.com</a>
                         <ul class="social-list__inline mt-10">
-                            <li><a href="https://twitter.com/DSCUniversityName" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://github.com/DSCUniversityName" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
-                            <li><a href=""><i class="fab fa-slack"></i></a></li>
-                            <li><a href="https://www.youtube.com/user/GoogleDevelopers" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://github.com/dscubc" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.instagram.com/dscubc/?hl=en" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://developers.google.com/community/dsc?fbclid=IwAR1XkhBZyd8w-QD0WOql4-IWSld6ey9xlOzr9BWas98TUd6zXwrE7yipdJ0" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -704,6 +588,8 @@
     <script src="src/js/vendors/owl.carousel.min.js"></script>
     <script src="src/js/vendors/hammer.js"></script>
     <script src="src/js/custom.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
